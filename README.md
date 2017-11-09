@@ -1,5 +1,5 @@
 # GraphQuery
-==========
+--------------------
 ![imagen de la aplicacion](./demo.PNG)
 
 ## Graphml
