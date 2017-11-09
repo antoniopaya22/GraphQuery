@@ -1,6 +1,6 @@
 # GraphQuery
 ==========
-![imagen de la aplicacion](./demo.png)
+![imagen de la aplicacion](./demo.PNG)
 
 ## Graphml
 --------------------
@@ -12,9 +12,10 @@ El problema que tiene dicho formato es su sintaxis, ya que con el fin de permiti
 ## GraphQuery
 --------------------
 La aplicación está desarrollada en C# con el framework de .NET v4.6.1, utilizando VisualStudio2017.
-*El código fuente está alojado en la carpeta Source
-*El ejecutable está alojado en la carpeta Ejecutable
-*Los archivos de prueba están alojados en la carpeta XML-Files
-*La aplicación tiene un funcionamiento sencillo. En primer lugar, debemos cargar el fichero Graphml sobre el que debemos trabajar por medio del botón cargar Graphml.
+1. El código fuente está alojado en la carpeta Source
+2. El ejecutable está alojado en la carpeta Ejecutable
+3. Los archivos de prueba están alojados en la carpeta XML-Files
+
+La aplicación tiene un funcionamiento sencillo. En primer lugar, debemos cargar el fichero Graphml sobre el que debemos trabajar por medio del botón cargar Graphml.
 Una vez cargado dicho archivo la aplicación muestra automáticamente los datos de los nodos en la tabla y rellana el combo box con los posibles campos que podemos usar para buscar un nodo concreto del grafo (por medio de sus atributos y etiquetas).
 Si queremos generar el XML lo tenemos que pulsar sobre el botón “GenerarXML” y nos pedirá un nombre y lugar para guardarlo.
